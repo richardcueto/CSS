@@ -1,0 +1,104 @@
+/*Pseudoclases-Dan estilo independiente del contexto ,posicion o estado del elemento*/
+.form-pseudoclases *:required{
+  border-color: yellow;
+}
+
+.form-pseudoclases *:valid{
+  border-color: green;
+}
+
+.form-pseudoclases *:invalid{
+  border-color: red;
+}
+
+.form-pseudoclases *:focus{
+  background-color: skyblue;
+}
+
+.form-pseudoclases *:disabled{
+  background-color: pink;
+}
+
+.menu-pseudoclases a:link{
+ color: blue;
+}
+
+.menu-pseudoclases a:visited{
+  color: olive;
+}
+
+.menu-pseudoclases a:hover{
+  color: orange;
+}
+
+.p-seudoclases:hover{
+  font-size: 18px;
+}
+
+.lista-pseudoclases li:first-child{
+  color: red;
+}
+
+.lista-pseudoclases li:last-child{
+  color: red;
+}
+
+.lista-pseudoclases li:nth-child(3){
+  color: red;
+}
+
+.lista-pseudoclases li:nth-child(3n+1){
+  color: blue;
+}
+
+.lista-pseudoclases li:nth-child(even){
+  background-color: green;
+}
+
+.lista-pseudoclases li:nth-child(odd){
+  background-color: skyblue;
+}
+
+.articulo-pseudoclases p:first-of-type{
+  background-color:pink;
+}
+
+.articulo-pseudoclases p:last-of-type{
+  background-color:violet;
+}
+
+.articulo-pseudoclases *:not(p){
+  background-color: beige;
+}
+
+.saga-gemenis::before{
+  content:"🤼🤼";
+}
+
+.saga-gemenis::after{
+  content: "👍";
+}
+
+.saga-precio::before{
+  content: "s/.";
+  font-weight: bold;
+}
+
+.saga-precio::after{
+  content: "soles";
+  font-weight: bold;
+}
+
+.p-seudoelementos::first-letter{
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.p-seudoelementos::first-line{
+  color: coral;
+}
+
+.p-seudoelementos::selection{
+  color: greenyellow;
+  background-color: black;
+}
